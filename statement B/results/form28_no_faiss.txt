@@ -1,0 +1,44 @@
+Documents fed:
+Special Leave Petition Civil.docx
+Special Leave Petition Criminal.docx
+Civil Appeal - Super labels ltd...docx
+Defects list as per Registry Supreme Court.pdf
+Form 28.pdf
+
+User query: Does the Special Leave Petition Civil text have all the requirements of Form 28?
+Yes, I can help analyze whether the Special Leave Petition (SLP) in the Civil text meets all the requirements of Form 28. Below are the requirements of Form 28 and whether they are addressed in the given SLP text:
+
+### Requirements of Form 28 and Analysis:
+
+1. **Position of Parties (In the Court from which the Petition arises and in this Court):**
+   - The parties (Petitioner and Respondent) and their roles are explicitly mentioned.
+
+2. **Details of Judgment/Order being Appealed Against:**
+   - The text mentions that the SLP is against the final judgment and order dated 08.12.2023 passed by the Hon’ble High Court of Karnataka at Bengaluru in R.F.A. No.1165 of 2009 (PAR).
+
+3. **Questions of Law:**
+   - Questions of law are listed in the text, including whether the High Court erred in its decision regarding the pleadings and amendments.
+
+4. **Declaration in Terms of Rule 4(2):**
+   - The text includes a declaration stating that no other petition seeking leave to appeal has been filed by the Petitioner.
+
+5. **Declaration in Terms of Rule 6:**
+   - The text confirms that the annexures produced along with the SLP are true copies of the pleadings/documents which formed part of the records of the case in the Court below.
+
+6. **Grounds:**
+   - Grounds for the SLP are thoroughly specified and include numerous legal arguments against the High Court's judgment.
+
+7. **Grounds for Interim Relief:**
+   - Specific grounds for interim relief are stated, detailing the necessity of staying the High Court's order during the pendency of the SLP.
+
+8. **Main Prayer:**
+   - The main prayer is clearly outlined, seeking special leave to appeal and the setting aside of the High Court’s order.
+
+9. **Interim Relief:**
+   - The interim prayer is also specified, seeking a stay on the High Court’s order and the subsequent directions of the order.
+
+10. **Place and Signature:**
+    - The text includes the place “New Delhi” and mentions that it is drawn & filed by M/S AP&J Chambers, noted as the Advocate for the Petitioner.
+
+### Conclusion:
+The detailed information found in the text shows that it adheres to all the necessary elements required in Form 28 of the Supreme Court Rules. The parties are correctly identified, the judgment being appealed is referenced, and all essential declarations, grounds, prayers, and signatures are included. Thus, the Special Leave Petition Civil text appears to be complete as per the prescribed format of Form 28.

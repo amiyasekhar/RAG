@@ -1,0 +1,9 @@
+SC Hackathon Statement A workflow:
+
+Step1 : upload "High Court Order Document", "SC Petition Document", "Document having list of defects"
+Step2 : metatag values to be extracted from High Court Order Document, values to be stored in dict format or json_string format for next reference and for showing in screen 
+		(BERT model to be used here)
+Step3 : First LLM call to metatag values from SC Petition Document, values to be stored in dict format or json_string format for next refference and for showing in screen
+Step4 : Second LLM call to compare metatg values obtained in step_2 ad step_3 to find if any inconsistency is there. Response of this call will be stored as string and added at the begining of final output string.
+Step5 : Third LLM call that will use texts from "Document having list of defect", and instruct the LLM to find out if there are any defects in "SC Petition Document" and 
+		categorize it to the defect categories given in "Document having list of defect". Output of this call to be appended with the Step4 result and to be shown as final output.

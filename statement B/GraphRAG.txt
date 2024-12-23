@@ -1,0 +1,150 @@
+import spacy
+import networkx as nx
+import streamlit as st
+from spacy.matcher import Matcher
+from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
+import lexnlp.extract.en.acts
+import lexnlp.extract.en.dates
+import fitz  # PyMuPDF for handling PDFs
+import bigbird  # If using BigBird
+
+# Initialize knowledge graph
+G = nx.MultiDiGraph()
+
+# Load various pre-trained NLP models
+nlp = spacy.load("en_core_web_sm")  # Default Spacy model
+legal_bert_tokenizer = AutoTokenizer.from_pretrained("nlpaueb/legal-bert-base-uncased")
+legal_bert_model = AutoModelForTokenClassification.from_pretrained("nlpaueb/legal-bert-base-uncased")
+legal_nlp_pipeline = pipeline("ner", model=legal_bert_model, tokenizer=legal_bert_tokenizer, aggregation_strategy="simple")
+
+caselaw_bert_tokenizer = AutoTokenizer.from_pretrained("zlucia/case-law-bert")
+caselaw_bert_model = AutoModelForTokenClassification.from_pretrained("zlucia/case-law-bert")
+caselaw_nlp_pipeline = pipeline("ner", model=caselaw_bert_model, tokenizer=caselaw_bert_tokenizer, aggregation_strategy="simple")
+
+cuad_tokenizer = AutoTokenizer.from_pretrained("nlpaueb/legal-bert-base-uncased")  # CUAD based on Legal-BERT
+cuad_model = AutoModelForTokenClassification.from_pretrained("nlpaueb/legal-bert-base-uncased")
+cuad_nlp_pipeline = pipeline("ner", model=cuad_model, tokenizer=cuad_tokenizer, aggregation_strategy="simple")
+
+# BigBird setup (optional for large documents)
+# bigbird_model = BigBirdModel.from_pretrained('google/bigbird-roberta-base')
+# bigbird_tokenizer = BigBirdTokenizer.from_pretrained('google/bigbird-roberta-base')
+
+# Function to process and extract entities using multiple models
+def extract_entities_and_relationships(documents):
+    matcher = Matcher(nlp.vocab)
+    
+    # Define patterns for legal-based relationships (common in legal texts)
+    patterns = [
+        [{'DEP': 'nsubj'}, {'LEMMA': {'IN': ['file', 'challenge', 'rule', 'appeal']}}, {'DEP': 'dobj'}],  # Pattern for legal actions
+        [{'DEP': 'nsubj'}, {'DEP': 'ROOT'}, {'DEP': 'attr'}],  # Subject -> Verb -> Attribute (e.g., "Court ruled")
+        [{'DEP': 'nsubjpass'}, {'DEP': 'ROOT'}, {'DEP': 'prep'}, {'DEP': 'pobj'}]  # Passive voice (e.g., "Order filed by")
+    ]
+    matcher.add("LegalPattern", patterns)
+
+    for document in documents:
+        # Optionally, use BigBird for long documents
+        # tokens = bigbird_tokenizer(document, return_tensors='pt', padding=True, truncation=True)
+        # bigbird_output = bigbird_model(**tokens)
+        
+        doc = nlp(document)
+
+        # **Legal-BERT NER Extraction**
+        legal_bert_entities = legal_nlp_pipeline(document)
+        for ent in legal_bert_entities:
+            if ent['entity_group'] == "PERSON":
+                G.add_node(ent['word'], entity_type="legal_person")
+            elif ent['entity_group'] == "ORG":
+                G.add_node(ent['word'], entity_type="legal_entity")
+            elif ent['entity_group'] == "GPE":
+                G.add_node(ent['word'], entity_type="location")
+            elif ent['entity_group'] == "DATE":
+                G.add_node(ent['word'], entity_type="date")
+
+        # **CaseLaw-BERT NER Extraction**
+        caselaw_entities = caselaw_nlp_pipeline(document)
+        for ent in caselaw_entities:
+            if ent['entity_group'] == "PERSON":
+                G.add_node(ent['word'], entity_type="legal_person_case")
+            elif ent['entity_group'] == "ORG":
+                G.add_node(ent['word'], entity_type="legal_entity_case")
+            elif ent['entity_group'] == "LAW":
+                G.add_node(ent['word'], entity_type="law_reference")
+
+        # **CUAD for Contract Terms**
+        cuad_entities = cuad_nlp_pipeline(document)
+        for ent in cuad_entities:
+            if ent['entity_group'] == "CLAUSE":
+                G.add_node(ent['word'], entity_type="contract_clause")
+            elif ent['entity_group'] == "TERM":
+                G.add_node(ent['word'], entity_type="contract_term")
+
+        # **LexNLP for Statutes and Legal Terms**
+        statutes = lexnlp.extract.en.acts.get_acts(document)
+        dates = lexnlp.extract.en.dates.get_dates(document)
+        for statute in statutes:
+            G.add_node(statute, entity_type="statute")
+        for date in dates:
+            G.add_node(date, entity_type="date")
+
+        # **CourtListener's Legal NER (example)**:
+        # For extracting more specific legal entities (e.g., judge names, case numbers)
+        # This assumes CourtListener model can be called via pipeline or direct API
+        # courtlistener_entities = courtlistener_nlp_pipeline(document)
+        # for ent in courtlistener_entities:
+        #     if ent['entity_group'] == "JUDGE":
+        #         G.add_node(ent['word'], entity_type="judge")
+        #     elif ent['entity_group'] == "CASE_NUMBER":
+        #         G.add_node(ent['word'], entity_type="case_number")
+
+        # Extract legal action relationships using SpaCy matcher
+        matches = matcher(doc)
+        for match_id, start, end in matches:
+            span = doc[start:end]
+            subject, action, object_ = None, None, None
+
+            for token in span:
+                if token.dep_ == 'nsubj' or token.dep_ == 'nsubjpass':
+                    subject = token.text  # Legal entity initiating the action
+                if token.dep_ == 'ROOT':
+                    action = token.lemma_  # Legal action (e.g., "filed," "challenged")
+                if token.dep_ == 'dobj' or token.dep_ == 'pobj':
+                    object_ = token.text  # Object of the action (e.g., "order," "case")
+
+            if subject and action and object_:
+                # Add an edge with the legal action as the relationship
+                G.add_edge(subject, object_, relationship=action)
+
+    return G
+
+# Streamlit app to upload and process legal files
+def main():
+    st.title("Legal Knowledge Graph Creation with Multiple NLP Models")
+
+    # Upload documents
+    uploaded_files = st.file_uploader("Upload your legal documents", type=["txt", "docx", "pdf"], accept_multiple_files=True)
+
+    if uploaded_files:
+        # Process documents and extract entities/relationships
+        documents = [file.read().decode("utf-8") for file in uploaded_files]  # Assuming files are text-based
+        knowledge_graph = extract_entities_and_relationships(documents)
+
+        # Visualize the knowledge graph
+        st.write("Knowledge graph created!")
+        visualize_graph(knowledge_graph)
+
+# Visualization function
+import matplotlib.pyplot as plt
+
+def visualize_graph(G):
+    plt.figure(figsize=(12, 12))
+    pos = nx.spring_layout(G)
+    nx.draw(G, pos, with_labels=True, node_color='lightblue', font_weight='bold', node_size=1500, edge_color='grey')
+
+    # Add edge labels (relationships)
+    edge_labels = nx.get_edge_attributes(G, 'relationship')
+    nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels)
+
+    plt.show()
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,28 @@
+From the document [document_name] extract values for the following Legal Named Entities : ["BenchCoram", "CaseNo", "CasesReferredTo", "Court", "JudgmentDate", "LawyerForPetitioner", "LawyerForRespondent", "Petitioner", "Respondent"]
+where the explaination or interpretation of the named entities are given as follows:
+        "BenchCoram": Name(s) of the judges present in the judgment bench of the current case,
+        "CaseNo": Case number(s) of the current case for which judgment is performed,
+        "CasesReferredTo": Names(s) and citation of precedent cases reffered in current case,
+        "Court": Name of the court delivering the current judgment,
+        "JudgmentDate": The date on which the judgment of the current case is announced,
+        "LawyerForPetitioner": Name(s) of the lawyer representing the petitioners,
+        "LawyerForRespondent": Name(s) of the lawyer representing the respondents,
+        "LegislationsReferred": Name(s) of the acts/ sections/ legislations/ Indian Penal Codes reffered in the current case,
+        "Petitioner": Name(s) of the petitioners or appellants of the current case,
+        "Respondent": Name(s) of the respondents or oppositions of the current case,
+		
+The pairs of named entities and their corresponding values should be given in python dictionary format (where both keys and values are string only). These named entities are multivalued i.e., more than one values can be present for them: ["BenchCoram", "CaseNo", "CasesReferredTo", "LawyerForPetitioner", "LawyerForRespondent", "Petitioner", "Respondent"]. For multivalued entities the values should be seperated by a semicolon delimeter (';')
+An example of desired output looks like following:
+
+	{
+        "BenchCoram": "Bhaskar Raj Pradhan",
+        "CaseNo": "W.P. (C) No.07 of 2023",
+        "CasesReferredTo": "Hari Prasad Sharma vs. Union of India & Ors, Hari Prasad Sharma vs. Union of India & Ors. RCC",
+        "Court": "SIKKIM HIGH COURT",
+        "JudgmentDate": "08/08/2024",
+        "LawyerForPetitioner": "Babita Kumari, Thupden G. Bhutia",
+        "LawyerForRespondent": "Mohan Sharma, Natasha Pradhan, Purnima Subba, Sangita Pradhan, Shakil Raj Karki, Zangpo Sherpa",
+        "LegislationsReferred": "N.H. Act, 1956",
+        "Petitioner": "Hari Prasad Sharma",
+        "Respondent": "Union of India, Union of India & Ors.",
+	}

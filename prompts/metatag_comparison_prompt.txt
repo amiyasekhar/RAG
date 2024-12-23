@@ -1,0 +1,28 @@
+The following are the Legal Named Entity values present in the High Court Order document:
+{
+	"BenchCoram": "Bhaskar Raj Pradhan",
+	"CaseNo": "W.P. (C) No.07 of 2023",
+	"CasesReferredTo": "Hari Prasad Sharma vs. Union of India & Ors, Hari Prasad Sharma vs. Union of India & Ors. RCC",
+	"Court": "SIKKIM HIGH COURT",
+	"JudgmentDate": "08/05/2024",
+	"LawyerForPetitioner": "Babita Kumari, Thupden G. Bhutia",
+	"LawyerForRespondent": "Debal Kumar Banerji, Gita Bista, Mohan Sharma, Natasha Pradhan, Purnima Subba, Sangita Pradhan, Shakil Raj Karki, Zangpo Sherpa",
+	"LegislationsReferred": "N.H. Act, 1956",
+	"Petitioner": "Hari Prasad Sharma",
+	"Respondent": "Union of India, Union of India & Ors.",
+}
+The following are the Legal Named Entity values present in the petition:
+{
+	"BenchCoram": "Bhaskar Raj Pradhan",
+	"CaseNo": "W.P. (C) No.07 of 2023",
+	"CasesReferredTo": "Hari Prasad Sharma vs. Union of India & Ors, Hari Prasad Sharma vs. Union of India & Ors. RCC",
+	"Court": "SIKKIM HIGH COURT",
+	"JudgmentDate": "08/08/2024",
+	"LawyerForPetitioner": "Babita Kumari, Thupden G. Bhutia",
+	"LawyerForRespondent": "Mohan Sharma, Natasha Pradhan, Purnima Subba, Sangita Pradhan, Shakil Raj Karki, Zangpo Sherpa",
+	"LegislationsReferred": "N.H. Act, 1956",
+	"Petitioner": "Hari Prasad Sharma",
+	"Respondent": "Union of India, Union of India & Ors.",
+}
+Look into these two pieces of data dictionaries and point out if there are any inconsistencies present by comparing the corresponding values.
+

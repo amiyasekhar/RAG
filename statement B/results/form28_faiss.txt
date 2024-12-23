@@ -1,0 +1,51 @@
+Documents fed:
+Special Leave Petition Civil.docx
+Special Leave Petition Criminal.docx
+Civil Appeal - Super labels ltd...docx
+Defects list as per Registry Supreme Court.pdf
+Form 28.pdf
+
+User query: Does the Special Leave Petition Civil text have all the requirements of Form 28?
+Based on the information provided, here is an analysis of the compliance of the Special Leave Petition (Civil) with the requirements typically laid out in Form 28 of the Supreme Court Rules:
+
+1. **Petition Format and Content:**
+   - The petition follows a structured format and includes several necessary sections, such as "Synopsis," "List of Dates and Events," "Statement of Facts," "Grounds," "Prayers," and "Index."
+   - The document also contains a "Main Prayer" and "Prayer for Interim Relief," which are standard requisites in petitions.
+
+2. **Supporting Documents and Certifications:**
+   - The petition mentions several annexures (e.g., P/1 to P/34) and claims that they are true and correct copies of the originals. The petition states that they formed a part of the record of the court(s) below against whose order/judgment the leave to appeal is sought.
+   - It includes an application for exemption from filing official translation of documents in the vernacular, which is required if any document is not in English.
+
+3. **Affidavits and Declarations:**
+   - The petition includes declarations under various rules:
+     - Declaration in terms of Rule 3(2) confirming that no other petition seeking special leave to appeal has been filed.
+     - Declaration in terms of Rule 5 confirming the correctness of the annexures attached.
+
+4. **List of Dates and Events:**
+   - A detailed list of chronological events is presented within the petition, which is a standard requirement for providing context and background to the case.
+
+5. **Grounds:**
+   - The petition includes a section labeled "Grounds," which provides multiple legal arguments against the impugned judgment, such as errors in law, disregard for statutory provisions, and alleged mala fide actions by the High Court.
+ 
+6. **Vakalatnama:**
+   - There's no specific mention of issues regarding Vakalatnama in the retrieved texts.
+ 
+7. **Office Report on Limitation:**
+   - The document includes a request for condonation of any delay in the refiling of the Special Leave Petition, acknowledging procedural timelines.
+
+8. **Certification Stamps:**
+   - There is no evidence in the text provided regarding certification stamps on the annexures. However, it does mention that the annexures are certified true copies.
+
+9. **Signatures:**
+   - There’s an indication of signatures of the counsel at the end of documents submitted by AP&J Chambers, but no mention if there’s any lack of signatures where required.
+
+10. **Miscellaneous Requirements:**
+   - The document does not show a specific checklist confirming that there are no missing items such as the court fees certificate, detailed application for any procedural exemptions beyond translations, or certification stamps visible in the annexures.
+
+**Discrepancies or Omissions:**
+- **Certified Copies of the Impugned Order:** The text mentions non-filing of certified copies may be an issue. This is critical since omission of certified copies is a common objection.
+- **List of Parties and Their Representation:** Proper listing with their statuses is essential.
+- **Affidavit Statements Regarding Facts and Veracity:** The text indicates some requirements for affidavits that need addressing, like stating facts true to the knowledge, information, and belief of the deponent.
+
+**Conclusion:**
+While the SLP (Civil) in question appears to be thorough and comprehensive, ensuring that all necessary sections and typical requirements are included, it also points towards potential non-compliances or areas needing verification such as proper certification of documents, proof of service, and precise clarity about certain affidavits. Any procedural oversights, such as incomplete annexure labeling or lack of specific certifications, must be addressed to meet the full requirements of Form 28 and avoid any office objections.

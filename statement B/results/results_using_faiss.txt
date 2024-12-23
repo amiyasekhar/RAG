@@ -1,0 +1,67 @@
+User query: what are the defects in the Special Leave Petition as per the defect list
+Based on the provided unstructured text, the defects in the Special Leave Petition (SLP) are outlined in the "Default-List" section. Here are the specific defects:
+
+1. **Document Filing and Fees:**
+   - Non-filing of the SLP (Civil) in Form No. 28 with the certificate as per Notification dated 17.6.1997.
+   - Deficit court fees.
+
+2. **Certification and Affidavits:**
+   - Non-filing of the certificate by AoR in support of the SLP.
+   - Non-mentioning of date of filing/drawn by.
+   - Non-filing of affidavit containing statements based on information, disclosure of the source of information, and truthfulness.
+   - Non-filing of a properly executed affidavit.
+   - Non-disclosure of the deponent’s capacity.
+   - Blanks in the affidavit.
+   
+3. **Prayer:**
+   - Incomplete details of the property/land in the prayer for interim relief.
+   - Incomplete prayer.
+
+4. **List of Dates:**
+   - Non-mentioning of the findings of the High Court/Courts below in the list of dates and para 1 of SLP.
+   - Non-filing of brief list of dates/events.
+
+5. **Annexures and Pagination:**
+   - Incorrect numbering of paragraphs and pagination.
+   - Non-mentioning of volume number with page numbers in the index of paper-books.
+   - Non-mentioning of page numbers of annexures in the list of dates/petition.
+   - Incorrect mentioning of description of annexures in the list of dates/petition and index.
+   - Non-filing of proof of respective certification of annexures.
+
+6. **Translations:**
+   - Non-filing of official translation of vernacular documents.
+   - Non-filing of an application for exemption from filing official translation.
+
+7. **Office Reports and Cause Titles:**
+   - Non-filing of office report on limitation with cause title on Green/White sheet.
+   - Name of High Court, Cause Title, etc. not shown in plain copy of impugned order; incorrect case number.
+
+8. **Vakalatnama:**
+   - Improper execution of Vakalatnama/Memo of Appearance.
+   - Non-affixation of Welfare Stamp.
+   - Non-mentioning of capacity of the executant for signing the Vakalatnama.
+   - Non-filing of Power of Attorney in English/translated copy.
+
+9. **Applications and Supporting Documents:**
+   - Non-filing of an application for setting aside abatement.
+   - Non-filing of an application for substitution with details regarding the date of death, age, relationship, and address of LRs.
+   - Non-filing of a photocopy of the Death Certificate in the substitution application.
+   - Non-filing of an application for condonation of delay in filing substitution.
+   - Non-filing of an application for permission to file SLP along with an application for substitution (in case of petitioner’s death before passing of the impugned order).
+   - Non-filing of translations of Vernacular Death Certificate.
+   - Non-filing of certificate and application seeking permission to appear and argue in person not filed by a petitioner-in-person.
+
+10. **Statements and Clarifications:**
+    - Non-furnishing of statements as to whether LPA or Writ Appeal lies against the impugned judgment and whether said remedy has been availed.
+    - Non-mentioning of whether the petitioner has filed any petition against the impugned order/judgment earlier, and if so, the result thereof.
+    - Non-clarification regarding filing of SLP against final or interim order.
+    - No clarification on why the main matter has not been challenged.
+
+11. **Miscellaneous Defects:**
+    - Non-bearing of signature of the counsel/party-in-person in petition or application.
+    - Missing specifics such as assessment year, completion of listing proforma, etc.
+    - Incorrect mentioning of the court name.
+    - Pages not clearly legible, having underlines/highlights, torn condition.
+    - Non-mentioning of the number of days of delay and non-filing of an application for condonation of delay.
+
+Given these extensive defects in the SLP, it is evident that numerous procedural, documentation, and compliance issues need to be addressed to ensure the SLP meets the standard filing requirements.

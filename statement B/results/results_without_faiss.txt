@@ -1,0 +1,122 @@
+User query: what are the defects in the Special Leave Petition as per the defect list
+Based on the retrieved unstructured text, here are the identified defects in the Special Leave Petition (SLP) as per the provided defect list:
+
+1. **Non-filing of SLP(Civil) in Form No.28 with certificate as per Notification dated 17.6.1997.**
+2. **Deficit Court Fees**: More court fee required Rs…
+3. **Non-filing of certificate by AoR in support of SLP.**
+4. **No clarification regarding filing of SLP against Final or Interim Order.**
+5. **Non-mentioning of the findings of the High Court/Courts below in the list of dates and para 1 of SLP.**
+6. **Incomplete prayer/details of property, land etc. not mentioned/correctly mentioned in prayer for interim relief.**
+7. **Non-mentioning of date of filing/drawn by.**
+8. **Why the main matter has not been challenged.**
+9. **Non-filing of brief list of dates/events.**
+10. **Non-filing of application for permission to file lengthy list.**
+11. **Incorrect numbering of paragraphs and pagination of paper books and description in Index.**
+12. **Non-mentioning of volume number with page numbers in Index of Paper-books.**
+13. **Non-filing of office report on limitation with cause title on Green/White sheet.**
+14. **Non-mentioning of page numbers of annexures in the list of dates/ petition.**
+15. **Incorrect mentioning of description of annexures in list of dates/petition.**
+16. **Incorrect mentioning of description of annexures in Index.**
+17. **Wrong mentioning of Court name at page No.**
+18. **Non-mentioning of Assessment Year on cover page of paper books and page B of List of Dates (Income Tax Matter) and/or Col.9 of Listing Proforma not filled-in.**
+19. **Not in double space on one side of the paper.**
+20. **Page No. … not clear/legible/small font/dim/missing.**
+21. **Page Nos. … contain underlines/highlights/blanks/torn condition.**
+22. **Pages … not included horizontally.**
+23. **Page Nos. not indicated on the right side of the top of pages.**
+24. **Non-bearing of signature of the counsel/party-in-person in petition/application/ certificate.**
+25. **Non-filing of affidavit containing statements based on information, whether the deponent has disclosed the source of this information, including official records.**
+26. **Non-filing of affidavit containing the statement that the facts stated in the petition are true to the knowledge, information, and belief of the deponent.**
+27. **Non-filing of affidavit properly executed.**
+28. **Non-disclosure of deponent’s capacity [in case matter is filed on behalf of or by organization/company/pairokar].**
+29. **Blanks in the affidavit.**
+30. **Non-filing of translation of vernacular document(s).**
+31. **Non-mentioning of annexure numbers of the translated document(s).**
+32. **Non-filing of application for exemption from filing official translation, with affidavit and court fee.**
+33. **Non-filing of application for setting aside abatement.**
+34. **Non-filing of application for substitution containing details regarding date of death/age/relationship and address of LRs.**
+35. **Non-filing of application for substitution containing details regarding date of death/age/relationship and address of LRs.**
+36. **Non-filing of photocopy of Death Certificate in substitution application.**
+37. **Non-filing of application for condonation of delay in filing substitution.**
+38. **Non-filing of application for permission to file SLP along with application for substitution (in case of petitioner’s death before the passing of the impugned order).**
+39. **Non-filing of translation of Vernacular Death Certificate.**
+40. **Improper execution of Vakalatnama/Memo of Appearance.**
+41. **Non-affixation of Welfare Stamp.**
+42. **Non-mentioning of capacity of executant for signing of vakalatnama.**
+43. **Non-filing of Power of Attorney in English/translated copy.**
+44. **Non-inclusion of Vakalatnama attested from jail.**
+45. **Application seeking permission to appear and argue in person not filed by petitioner-in-person.**
+46. **The petitioner has not filed an affidavit stating that there is no personal gain private motive or oblique reason in filing the Public Interest Litigation.**
+47. **Non-furnishing of details regarding registration and authorization in para 1A of the writ petition in filing the Public Interest Litigation.**
+48. **Writ not filed in terms of ORDER XXXVIII SCR, 2013 if it is filed as PIL.**
+49. **Non-Mentioning in para 1A of writ petition regarding petitioner having approached the concerned authority/respondents/along with copy of applications/representation and outcome.**
+50. **Why private parties arrayed as respondents in Writ Petition.**
+51. **Non-filing of authorization letter issued by body corporate to file petition with proof.**
+52. **Non-filing of a copy of registration certificate in case petition is filed by a body registered under any Act or Rules.**
+53. **Non-mentioning in petitions/appeals of statement in terms of Order XXI Rule 3/Order XXII Rule 2 of Supreme Court Rules (Whether petitioner has filed any petition against the impugned order/judgment earlier, and if so, the result thereof stated).**
+54. **Whether the petitioner has moved any petition for the same relief.**
+55. **Non-furnishing of statement as to whether LPA or Writ Appeal lies against the impugned judgment and whether the said remedy has been availed.**
+56. **Non-filing of a certified copy of the impugned judgment.**
+57. **Name of High Court, Cause Title etc. not shown in plain copy of the impugned order/incorrect case number.**
+58. **As certified copy is not available, application for exemption from filing certified copy has not been filed.**
+59. **Application seeking permission to file SLP without certified copy as well as plain copy of the impugned order not filed.**
+60. **Contents of certified copy and typed copy don’t tally.**
+61. **Particulars of the impugned judgments not uniformly written in all the documents.**
+62. **Non-filing of Memo of Parties, as detailed cause title not given in the impugned judgment.**
+63. **Non-furnishing of name and addresses of the counsel, who appeared before the court below, as the petition is against the interim order to be given separately.**
+64. **Incomplete/Incorrect addresses/status of the parties and their representation.**
+65. **Separate cause title not shown (If more than one matter).**
+66. **Cause title of the petition/appeal not corresponding to that of the impugned judgment and names of parties therein.**
+67. **Contesting/pro forma respondents not mentioned separately (contesting respondent not shown first).**
+68. **Details regarding name and address of each petitioner along with status before High Court and Lower Court not given (where bail sought for by more than one petitioner).**
+69. **Why President of India/Governor/Tribunal/Judicial Officer has been made party.**
+70. **Appeal not accompanied by judgment and decree appealed from with order granting certificate (in case of appeal by certificate).**
+71. **Non-mentioning of the number of days of delay.**
+72. **Non-filing of application for condonation of delay in time-barred petition/appeal (with affidavit and court fee).**
+73. **Separate annexures to be filed and not collectively.**
+74. **Annexures … referred to in the petition not true copies of the documents before the court below/Annexures not in chronological order as per List of Dates.**
+75. **Date(s) of annexures … do not tally.**
+76. **Date(s) of annexures … not given.**
+77. **Case No.(s) of annexures … not given.**
+78. **Non-filing of a copy of judgment/order/notification/award/annexure/GOs/Appendix/Exhibits/letters dated …**
+79. **Non-filing of a copy of the petition in transfer petition (Case number/cause title/ transfer court detail not mentioned).**
+80. **Application for taking additional grounds/filing of documents with affidavit and court fee not filed (petition/appeal to be confined to the pleadings in the Court/Tribunal below) (Para No.4 and Certificate of SLP to be drawn accordingly).**
+81. **Non-mentioning/improper mentioning of annexures with page numbers in application for taking additional grounds/documents on record.**
+82. **Non-filing of annexures along with the application for taking additional grounds/documents on record.**
+83. **Non-filing of copies of the orders of the Trial Court/First Appellate Court in case of SLP filed against RSA.**
+84. **Non-filing of copies of the orders of courts below.**
+85. **Non-filing of application for exemption from surrendering.**
+86. **Non-furnishing of the statement in the petition whether the petitioner has surrendered (in the matter involving sentence to term of imprisonment).**
+87. **Non-inclusion of the copy of surrender/custody certificate in the paper book.**
+88. **Non-inclusion of Custody Certificate attested from jail.**
+89. **Non-filing of copy of surrender proof/custody certificate in respect of all convicts.**
+90. **Non-filing of application for exemption from filing separate proof of surrender where proof of surrender/separate certificate from the Jail Authority not filed.**
+91. **Non-mentioning of period of sentence already undergone in application for bail.**
+92. **Non-filing of copy of petition filed before High Court under Section 482 of Cr.P.C. (In case of quashing of FIR).**
+93. **Copy of FIR/translated copy of FIR not filed (In case of anticipatory bail/stay of arrest).**
+94. **Non-mentioning of the period of custody undergone by the accused (in the matters filed against Acquittal).**
+95. **Non-inclusion of complete listing proforma filled in, signed in the paper-books.**
+96. **Non-furnishing of complete particulars of any identical matter pending/disposed of by Supreme Court.**
+97. **Statement in terms of Order XIX Clause 3(1) of Rules, not given in the Petition of Appeal.**
+98. **Non-filing of proof of depositing Rs.50,000/- (in case of Appeal u/S 23 of Consumer Protection Act against the order of NCDRC).**
+99. **Non-filing of order refusing/granting leave to file Appeal (in case of appeal against order of Armed Forces Tribunal).**
+100. **Receipt of Rs.15,000/- received from the Cash Branch not filed.**
+101. **If commercial litigation matter, CD format/e-mail addresses of all the parties not filed.**
+102. **Sub-section of Section 11 under which Arbitration Petition filed, not mentioned.**
+103. **Clause of the agreement challenged in the petition, not mentioned.**
+104. **Pagination with description of annexures not mentioned in the petition.**
+105. **Para i.e. all conditions set out in Section 11 of Arbitration Act have been satisfied, not given, and affidavit in support thereof not filed.**
+106. **Original Arbitration Agreement or a duly certified copy or application for exemption from filing certified copy of agreement, not filed.**
+107. **Names and addresses of the parties to the Arbitration Agreement, not given.**
+108. **Names and addresses of the Arbitrators, if any, already appointed, not given.**
+109. **Name and address of the person or institution, if any, to whom or to which any function has been entrusted by the parties to the Arbitration Agreement under appointment procedure agreed upon by them, not given.**
+110. **The qualifications required, if any, of the arbitrators by the agreement of the parties, not given.**
+111. **Brief written statement describing the general nature of the dispute and the points at issue, not given.**
+112. **Relief or remedy sought, not given.**
+113. **Affidavit, supported by relevant documents, to the effect that the condition to be satisfied under sub-section (4) or (5) or (6) of Section 11, as the case may be, before making the request to Hon. the Chief Justice, has been satisfied, not given.**
+114. **Non-clarification as to the nature of the matter whether Civil or Criminal.**
+115. **Non-clarification as to why SLP/Appeal filed without approaching High Court/Tribunal.**
+116. **No clarification of Advocate if FIR sought to be transferred in a Transfer Petition.**
+117. **No clarification as to maintainability of writ petition (where SLP/CA already filed/disposed of).**
+
+These defects must be addressed and rectified to ensure proper filing and processing of the Special Leave Petition.
